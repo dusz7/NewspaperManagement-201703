@@ -1,4 +1,4 @@
-package com.newspaper.dusz7.newspapermanagement.camera;
+package com.newspaper.dusz7.newspapermanagement.qrcode_module.camera;
 
 public class Size {
 	public Size(int w, int h) {

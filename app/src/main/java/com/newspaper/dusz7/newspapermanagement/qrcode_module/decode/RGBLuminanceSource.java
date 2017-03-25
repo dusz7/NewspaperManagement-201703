@@ -1,8 +1,8 @@
-package com.newspaper.dusz7.newspapermanagement.decode;
+package com.newspaper.dusz7.newspapermanagement.qrcode_module.decode;
 
 import android.graphics.Bitmap;
 
-import com.newspaper.dusz7.newspapermanagement.camera.Size;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.camera.Size;
 
 
 public class RGBLuminanceSource extends LuminanceSource {

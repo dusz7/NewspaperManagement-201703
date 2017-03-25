@@ -1,4 +1,4 @@
-package com.newspaper.dusz7.newspapermanagement.decode;
+package com.newspaper.dusz7.newspapermanagement.qrcode_module.decode;
 
 import android.graphics.Bitmap;
 

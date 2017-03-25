@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.newspaper.dusz7.newspapermanagement.util;
+package com.newspaper.dusz7.newspapermanagement.location_module;
 
 import android.text.TextUtils;
 
@@ -15,10 +15,10 @@ import java.util.Locale;
  * @创建时间： 2015年11月24日 上午11:46:50
  * @项目名称： AMapLocationDemo2.x
  * @author hongming.wang
- * @文件名称: Utils.java
- * @类型名称: Utils
+ * @文件名称: LocUtils.java
+ * @类型名称: LocUtils
  */
-public class Utils {
+public class LocUtils {
 	/**
 	 *  开始定位
 	 */

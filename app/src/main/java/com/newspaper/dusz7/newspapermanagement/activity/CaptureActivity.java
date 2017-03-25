@@ -21,19 +21,20 @@ import android.widget.Toast;
 import com.google.zxing.Result;
 import com.google.zxing.ResultPoint;
 import com.newspaper.dusz7.newspapermanagement.R;
-import com.newspaper.dusz7.newspapermanagement.camera.CameraManager;
-import com.newspaper.dusz7.newspapermanagement.camera.PreviewFrameShotListener;
-import com.newspaper.dusz7.newspapermanagement.camera.Size;
-import com.newspaper.dusz7.newspapermanagement.decode.DecodeListener;
-import com.newspaper.dusz7.newspapermanagement.decode.DecodeThread;
-import com.newspaper.dusz7.newspapermanagement.decode.LuminanceSource;
-import com.newspaper.dusz7.newspapermanagement.decode.PlanarYUVLuminanceSource;
-import com.newspaper.dusz7.newspapermanagement.decode.RGBLuminanceSource;
-import com.newspaper.dusz7.newspapermanagement.util.DocumentUtil;
-import com.newspaper.dusz7.newspapermanagement.view.CaptureView;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.camera.CameraManager;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.camera.PreviewFrameShotListener;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.camera.Size;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.decode.DecodeListener;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.decode.DecodeThread;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.decode.LuminanceSource;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.decode.PlanarYUVLuminanceSource;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.decode.RGBLuminanceSource;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.util.DocumentUtil;
+import com.newspaper.dusz7.newspapermanagement.qrcode_module.view.CaptureView;
 
 /**
  * Created by dusz7 on 2017/3/6.
+ * 二维码扫描界面（打开摄像头，有开启闪光灯和相册等功能）
  */
 
 public class CaptureActivity extends Activity implements SurfaceHolder.Callback, PreviewFrameShotListener, DecodeListener,

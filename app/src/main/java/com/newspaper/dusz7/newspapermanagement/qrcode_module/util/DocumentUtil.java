@@ -1,4 +1,4 @@
-package com.newspaper.dusz7.newspapermanagement.util;
+package com.newspaper.dusz7.newspapermanagement.qrcode_module.util;
 
 /**
  * 二维码相关使用

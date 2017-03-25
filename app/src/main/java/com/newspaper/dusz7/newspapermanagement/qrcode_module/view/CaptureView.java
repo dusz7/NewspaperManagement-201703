@@ -1,4 +1,4 @@
-package com.newspaper.dusz7.newspapermanagement.view;
+package com.newspaper.dusz7.newspapermanagement.qrcode_module.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
